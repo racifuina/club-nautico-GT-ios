@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F63ADA3EABB5CEE004FA64 /* Pods_Club_Nautico_GT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D60BED3AD612369B68AA51 /* Pods_Club_Nautico_GT.framework */; };
+		DBD027F81C66FB7400449C26 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD027F71C66FB7400449C26 /* DataService.swift */; };
+		DBE2A97A1C6652A600BDAC94 /* NoticiasListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2A9791C6652A600BDAC94 /* NoticiasListVC.swift */; };
+		DBE2A97C1C6652E600BDAC94 /* NoticiasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2A97B1C6652E600BDAC94 /* NoticiasCell.swift */; };
+		DBE2A97E1C66542C00BDAC94 /* NoticiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2A97D1C66542C00BDAC94 /* NoticiaVC.swift */; };
+		F02006B61C1723380078F6CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02006B41C1723380078F6CE /* Bolts.framework */; };
+		F02006B71C1723380078F6CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02006B51C1723380078F6CE /* Parse.framework */; };
+		F027A52C1C29B29500DC0312 /* ExistenteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027A52A1C29B29500DC0312 /* ExistenteVC.swift */; };
+		F027A5301C29B2DE00DC0312 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027A52F1C29B2DE00DC0312 /* Constants.swift */; };
+		F027A5321C29B37B00DC0312 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027A5311C29B37B00DC0312 /* LoginVC.swift */; };
+		F0332DBB1C15D9D40071B2F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332DBA1C15D9D40071B2F0 /* AppDelegate.swift */; };
+		F0332DC01C15D9D40071B2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0332DBE1C15D9D40071B2F0 /* Main.storyboard */; };
+		F0332DC21C15D9D40071B2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0332DC11C15D9D40071B2F0 /* Assets.xcassets */; };
+		F0332DC51C15D9D40071B2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0332DC31C15D9D40071B2F0 /* LaunchScreen.storyboard */; };
+		F0332DEB1C15DE370071B2F0 /* ActividadesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332DEA1C15DE370071B2F0 /* ActividadesVC.swift */; };
+		F0332DFA1C15E1110071B2F0 /* ActividadesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332DF91C15E1110071B2F0 /* ActividadesCell.swift */; };
+		F0332DFE1C15EFC20071B2F0 /* FotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332DFD1C15EFC20071B2F0 /* FotosCell.swift */; };
+		F0332E001C15EFDB0071B2F0 /* FotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332DFF1C15EFDB0071B2F0 /* FotosVC.swift */; };
+		F0332E071C1604340071B2F0 /* AvisosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332E061C1604340071B2F0 /* AvisosVC.swift */; };
+		F0332E091C1604960071B2F0 /* AvisosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0332E081C1604960071B2F0 /* AvisosCell.swift */; };
+		F034FF471C29CC7000919EFE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F034FF461C29CC7000919EFE /* GameKit.framework */; };
+		F034FF491C29CC7500919EFE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F034FF481C29CC7500919EFE /* StoreKit.framework */; };
+		F042A6C91C650D1200F787DB /* Resultado.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F042A6C81C650D1200F787DB /* Resultado.pdf */; };
+		F04810DD1C3191D2001539C1 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04810DC1C3191D2001539C1 /* ChatVC.swift */; };
+		F04E36881C2899A500F309D4 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04E36871C2899A500F309D4 /* ParseUI.framework */; };
+		F0511DF11C318EC100E2C99C /* MiembrosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0511DF01C318EC100E2C99C /* MiembrosVC.swift */; };
+		F06CAC241C19E0CE001DDDE0 /* Actividad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CAC231C19E0CE001DDDE0 /* Actividad.swift */; };
+		F0A2AF121C61042800626AFC /* AdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A2AF111C61042800626AFC /* AdsVC.swift */; };
+		F0D26C761C640258002C40F2 /* ActividadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D26C751C640258002C40F2 /* ActividadVC.swift */; };
+		F0D26C7B1C64059D002C40F2 /* InfoActividadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D26C791C64059D002C40F2 /* InfoActividadVC.swift */; };
+		F0D26C7C1C64059D002C40F2 /* InfoActividadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D26C7A1C64059D002C40F2 /* InfoActividadVC.xib */; };
+		F0D26C7F1C640616002C40F2 /* ResultadosActividadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D26C7D1C640616002C40F2 /* ResultadosActividadVC.swift */; };
+		F0D26C801C640616002C40F2 /* ResultadosActividadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D26C7E1C640616002C40F2 /* ResultadosActividadVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3350E245EBF76DDD79B92528 /* Pods-Club Nautico GT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club Nautico GT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Club Nautico GT/Pods-Club Nautico GT.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D60BED3AD612369B68AA51 /* Pods_Club_Nautico_GT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Club_Nautico_GT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD027F71C66FB7400449C26 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DBE2A9791C6652A600BDAC94 /* NoticiasListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiasListVC.swift; sourceTree = "<group>"; };
+		DBE2A97B1C6652E600BDAC94 /* NoticiasCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiasCell.swift; sourceTree = "<group>"; };
+		DBE2A97D1C66542C00BDAC94 /* NoticiaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaVC.swift; sourceTree = "<group>"; };
+		E73BCBD6E4B298210DD61C61 /* Pods-Club Nautico GT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club Nautico GT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Club Nautico GT/Pods-Club Nautico GT.release.xcconfig"; sourceTree = "<group>"; };
+		F02006B41C1723380078F6CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F02006B51C1723380078F6CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F027A52A1C29B29500DC0312 /* ExistenteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistenteVC.swift; sourceTree = "<group>"; };
+		F027A52F1C29B2DE00DC0312 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F027A5311C29B37B00DC0312 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F0332DB71C15D9D40071B2F0 /* Club Nautico GT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Club Nautico GT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0332DBA1C15D9D40071B2F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0332DBF1C15D9D40071B2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0332DC11C15D9D40071B2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0332DC41C15D9D40071B2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0332DC61C15D9D40071B2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0332DEA1C15DE370071B2F0 /* ActividadesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesVC.swift; sourceTree = "<group>"; };
+		F0332DF91C15E1110071B2F0 /* ActividadesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesCell.swift; sourceTree = "<group>"; };
+		F0332DFD1C15EFC20071B2F0 /* FotosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotosCell.swift; sourceTree = "<group>"; };
+		F0332DFF1C15EFDB0071B2F0 /* FotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotosVC.swift; sourceTree = "<group>"; };
+		F0332E061C1604340071B2F0 /* AvisosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisosVC.swift; sourceTree = "<group>"; };
+		F0332E081C1604960071B2F0 /* AvisosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisosCell.swift; sourceTree = "<group>"; };
+		F034FF461C29CC7000919EFE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F034FF481C29CC7500919EFE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F042A6C81C650D1200F787DB /* Resultado.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Resultado.pdf; path = "Club Nautico GT/Resultado.pdf"; sourceTree = "<group>"; };
+		F04810DC1C3191D2001539C1 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		F04E36871C2899A500F309D4 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		F0511DF01C318EC100E2C99C /* MiembrosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiembrosVC.swift; sourceTree = "<group>"; };
+		F06CAC231C19E0CE001DDDE0 /* Actividad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actividad.swift; sourceTree = "<group>"; };
+		F0926EBC1C6159FD00F055C9 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F0A2AF111C61042800626AFC /* AdsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsVC.swift; sourceTree = "<group>"; };
+		F0D26C751C640258002C40F2 /* ActividadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadVC.swift; sourceTree = "<group>"; };
+		F0D26C791C64059D002C40F2 /* InfoActividadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoActividadVC.swift; sourceTree = "<group>"; };
+		F0D26C7A1C64059D002C40F2 /* InfoActividadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoActividadVC.xib; sourceTree = "<group>"; };
+		F0D26C7D1C640616002C40F2 /* ResultadosActividadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadosActividadVC.swift; sourceTree = "<group>"; };
+		F0D26C7E1C640616002C40F2 /* ResultadosActividadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultadosActividadVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0332DB41C15D9D40071B2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02006B61C1723380078F6CE /* Bolts.framework in Frameworks */,
+				F02006B71C1723380078F6CE /* Parse.framework in Frameworks */,
+				F04E36881C2899A500F309D4 /* ParseUI.framework in Frameworks */,
+				F034FF491C29CC7500919EFE /* StoreKit.framework in Frameworks */,
+				F034FF471C29CC7000919EFE /* GameKit.framework in Frameworks */,
+				B7F63ADA3EABB5CEE004FA64 /* Pods_Club_Nautico_GT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFD5D7BD1AB259CCC6A7046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3350E245EBF76DDD79B92528 /* Pods-Club Nautico GT.debug.xcconfig */,
+				E73BCBD6E4B298210DD61C61 /* Pods-Club Nautico GT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D11824A0DD69BC3BC06E733D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F034FF481C29CC7500919EFE /* StoreKit.framework */,
+				F034FF461C29CC7000919EFE /* GameKit.framework */,
+				D0D60BED3AD612369B68AA51 /* Pods_Club_Nautico_GT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE2A9781C66527D00BDAC94 /* Noticias */ = {
+			isa = PBXGroup;
+			children = (
+				DBE2A9791C6652A600BDAC94 /* NoticiasListVC.swift */,
+				DBE2A97B1C6652E600BDAC94 /* NoticiasCell.swift */,
+				DBE2A97D1C66542C00BDAC94 /* NoticiaVC.swift */,
+			);
+			name = Noticias;
+			sourceTree = "<group>";
+		};
+		F027A52E1C29B2BD00DC0312 /* Login/SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2AF111C61042800626AFC /* AdsVC.swift */,
+				F027A52A1C29B29500DC0312 /* ExistenteVC.swift */,
+				F027A5311C29B37B00DC0312 /* LoginVC.swift */,
+			);
+			name = Login/SignIn;
+			sourceTree = "<group>";
+		};
+		F0332DAE1C15D9D40071B2F0 = {
+			isa = PBXGroup;
+			children = (
+				F042A6C81C650D1200F787DB /* Resultado.pdf */,
+				F0332DB91C15D9D40071B2F0 /* Club Nautico GT */,
+				F0332DB81C15D9D40071B2F0 /* Products */,
+				D11824A0DD69BC3BC06E733D /* Frameworks */,
+				AAFD5D7BD1AB259CCC6A7046 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F0332DB81C15D9D40071B2F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0332DB71C15D9D40071B2F0 /* Club Nautico GT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0332DB91C15D9D40071B2F0 /* Club Nautico GT */ = {
+			isa = PBXGroup;
+			children = (
+				F0926EBC1C6159FD00F055C9 /* Header.h */,
+				F04E36871C2899A500F309D4 /* ParseUI.framework */,
+				F02006B41C1723380078F6CE /* Bolts.framework */,
+				F02006B51C1723380078F6CE /* Parse.framework */,
+				F0332DE91C15DCFB0071B2F0 /* Model */,
+				F0332DE81C15DCF30071B2F0 /* View */,
+				F0332DE71C15DCED0071B2F0 /* Controller */,
+				F0332DC11C15D9D40071B2F0 /* Assets.xcassets */,
+				F0332DC61C15D9D40071B2F0 /* Info.plist */,
+			);
+			path = "Club Nautico GT";
+			sourceTree = "<group>";
+		};
+		F0332DE71C15DCED0071B2F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F027A52E1C29B2BD00DC0312 /* Login/SignIn */,
+				F0332DFB1C15E2070071B2F0 /* Actividades */,
+				DBE2A9781C66527D00BDAC94 /* Noticias */,
+				F0332DFC1C15EFB10071B2F0 /* Fotos */,
+				F0511DEF1C318E9E00E2C99C /* Miembros */,
+				F0332DBA1C15D9D40071B2F0 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F0332DE81C15DCF30071B2F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0332DC31C15D9D40071B2F0 /* LaunchScreen.storyboard */,
+				F0332DBE1C15D9D40071B2F0 /* Main.storyboard */,
+				F0D26C7A1C64059D002C40F2 /* InfoActividadVC.xib */,
+				F0D26C7E1C640616002C40F2 /* ResultadosActividadVC.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F0332DE91C15DCFB0071B2F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F027A52F1C29B2DE00DC0312 /* Constants.swift */,
+				F06CAC231C19E0CE001DDDE0 /* Actividad.swift */,
+				DBD027F71C66FB7400449C26 /* DataService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0332DFB1C15E2070071B2F0 /* Actividades */ = {
+			isa = PBXGroup;
+			children = (
+				F0332DEA1C15DE370071B2F0 /* ActividadesVC.swift */,
+				F0332DF91C15E1110071B2F0 /* ActividadesCell.swift */,
+				F0D26C751C640258002C40F2 /* ActividadVC.swift */,
+				F0D26C791C64059D002C40F2 /* InfoActividadVC.swift */,
+				F0D26C7D1C640616002C40F2 /* ResultadosActividadVC.swift */,
+			);
+			name = Actividades;
+			sourceTree = "<group>";
+		};
+		F0332DFC1C15EFB10071B2F0 /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				F0332DFF1C15EFDB0071B2F0 /* FotosVC.swift */,
+				F0332DFD1C15EFC20071B2F0 /* FotosCell.swift */,
+			);
+			name = Fotos;
+			sourceTree = "<group>";
+		};
+		F0332E031C1604090071B2F0 /* Avisos */ = {
+			isa = PBXGroup;
+			children = (
+				F0332E061C1604340071B2F0 /* AvisosVC.swift */,
+				F0332E081C1604960071B2F0 /* AvisosCell.swift */,
+			);
+			name = Avisos;
+			sourceTree = "<group>";
+		};
+		F0511DEF1C318E9E00E2C99C /* Miembros */ = {
+			isa = PBXGroup;
+			children = (
+				F0511DF01C318EC100E2C99C /* MiembrosVC.swift */,
+				F04810DC1C3191D2001539C1 /* ChatVC.swift */,
+				F0332E031C1604090071B2F0 /* Avisos */,
+			);
+			name = Miembros;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0332DB61C15D9D40071B2F0 /* Club Nautico GT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0332DC91C15D9D40071B2F0 /* Build configuration list for PBXNativeTarget "Club Nautico GT" */;
+			buildPhases = (
+				AF578B24F311ACCE142AA218 /* Check Pods Manifest.lock */,
+				F0332DB31C15D9D40071B2F0 /* Sources */,
+				F0332DB41C15D9D40071B2F0 /* Frameworks */,
+				F0332DB51C15D9D40071B2F0 /* Resources */,
+				9608E230E88B7803E99BC3FD /* Embed Pods Frameworks */,
+				ECE8621836DA4C74185C3EBA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Club Nautico GT";
+			productName = "Club Nautico GT";
+			productReference = F0332DB71C15D9D40071B2F0 /* Club Nautico GT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0332DAF1C15D9D40071B2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = PanatlanticDev;
+				TargetAttributes = {
+					F0332DB61C15D9D40071B2F0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CAWN7L9ZQ6;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F0332DB21C15D9D40071B2F0 /* Build configuration list for PBXProject "Club Nautico GT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0332DAE1C15D9D40071B2F0;
+			productRefGroup = F0332DB81C15D9D40071B2F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0332DB61C15D9D40071B2F0 /* Club Nautico GT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0332DB51C15D9D40071B2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0332DC51C15D9D40071B2F0 /* LaunchScreen.storyboard in Resources */,
+				F0D26C801C640616002C40F2 /* ResultadosActividadVC.xib in Resources */,
+				F0332DC21C15D9D40071B2F0 /* Assets.xcassets in Resources */,
+				F042A6C91C650D1200F787DB /* Resultado.pdf in Resources */,
+				F0D26C7C1C64059D002C40F2 /* InfoActividadVC.xib in Resources */,
+				F0332DC01C15D9D40071B2F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9608E230E88B7803E99BC3FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club Nautico GT/Pods-Club Nautico GT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF578B24F311ACCE142AA218 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE8621836DA4C74185C3EBA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club Nautico GT/Pods-Club Nautico GT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0332DB31C15D9D40071B2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CAC241C19E0CE001DDDE0 /* Actividad.swift in Sources */,
+				F0332E091C1604960071B2F0 /* AvisosCell.swift in Sources */,
+				F027A52C1C29B29500DC0312 /* ExistenteVC.swift in Sources */,
+				F0332E071C1604340071B2F0 /* AvisosVC.swift in Sources */,
+				DBD027F81C66FB7400449C26 /* DataService.swift in Sources */,
+				DBE2A97A1C6652A600BDAC94 /* NoticiasListVC.swift in Sources */,
+				F0332DEB1C15DE370071B2F0 /* ActividadesVC.swift in Sources */,
+				DBE2A97C1C6652E600BDAC94 /* NoticiasCell.swift in Sources */,
+				F0D26C7B1C64059D002C40F2 /* InfoActividadVC.swift in Sources */,
+				F0D26C7F1C640616002C40F2 /* ResultadosActividadVC.swift in Sources */,
+				F0332DFE1C15EFC20071B2F0 /* FotosCell.swift in Sources */,
+				F0A2AF121C61042800626AFC /* AdsVC.swift in Sources */,
+				F0D26C761C640258002C40F2 /* ActividadVC.swift in Sources */,
+				F0332DFA1C15E1110071B2F0 /* ActividadesCell.swift in Sources */,
+				F0511DF11C318EC100E2C99C /* MiembrosVC.swift in Sources */,
+				F04810DD1C3191D2001539C1 /* ChatVC.swift in Sources */,
+				F0332DBB1C15D9D40071B2F0 /* AppDelegate.swift in Sources */,
+				F027A5321C29B37B00DC0312 /* LoginVC.swift in Sources */,
+				F0332E001C15EFDB0071B2F0 /* FotosVC.swift in Sources */,
+				DBE2A97E1C66542C00BDAC94 /* NoticiaVC.swift in Sources */,
+				F027A5301C29B2DE00DC0312 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0332DBE1C15D9D40071B2F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0332DBF1C15D9D40071B2F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0332DC31C15D9D40071B2F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0332DC41C15D9D40071B2F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0332DC71C15D9D40071B2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0332DC81C15D9D40071B2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0332DCA1C15D9D40071B2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3350E245EBF76DDD79B92528 /* Pods-Club Nautico GT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rigoberto Acifuina (4N5YM6YDFU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/",
+				);
+				INFOPLIST_FILE = "Club Nautico GT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panatlanticdev.ClubNautico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94329399-b75a-474e-a1a0-4dfbdd4babf6";
+				SWIFT_OBJC_BRIDGING_HEADER = "Club Nautico GT/Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0332DCB1C15D9D40071B2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73BCBD6E4B298210DD61C61 /* Pods-Club Nautico GT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rigoberto Acifuina (4N5YM6YDFU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rigoberto Acifuina (4N5YM6YDFU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/",
+				);
+				INFOPLIST_FILE = "Club Nautico GT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panatlanticdev.ClubNautico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94329399-b75a-474e-a1a0-4dfbdd4babf6";
+				SWIFT_OBJC_BRIDGING_HEADER = "Club Nautico GT/Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0332DB21C15D9D40071B2F0 /* Build configuration list for PBXProject "Club Nautico GT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0332DC71C15D9D40071B2F0 /* Debug */,
+				F0332DC81C15D9D40071B2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0332DC91C15D9D40071B2F0 /* Build configuration list for PBXNativeTarget "Club Nautico GT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0332DCA1C15D9D40071B2F0 /* Debug */,
+				F0332DCB1C15D9D40071B2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0332DAF1C15D9D40071B2F0 /* Project object */;
+}

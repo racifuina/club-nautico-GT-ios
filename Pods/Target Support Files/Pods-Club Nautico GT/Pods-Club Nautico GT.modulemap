@@ -1,0 +1,6 @@
+framework module Pods_Club_Nautico_GT {
+  umbrella header "Pods-Club Nautico GT-umbrella.h"
+
+  export *
+  module * { export * }
+}
